@@ -136,25 +136,30 @@
           <img srcset="originals/mozilla-dinosaur-head.png 400w, originals/mozilla-dinosaur-head.png 120w" 
           src="originals/mozilla-dinosaur-head.png"
           sizes="(max-width: 500px) 120px, 400px"
-          alt="firefox logo"/>
+          alt="mozilla org logo"/>
         </a>
         <a href="https://addons.mozilla.org/">
           <img srcset="originals/firefox-addons.png 400w, originals/firefox-addons.png 120w" 
-          src="originals/firefox-addons.png.png"
+          src="originals/firefox-addons.png"
           sizes="(max-width: 500px) 120px, 400px"
-          alt="firefox logo"/>
+          alt="mozilla addons"/>
         </a>
         <a href="https://developer.mozilla.org/en-US/">
           <img srcset="originals/mdn.svg 400w, originals/mdn.svg 120w" 
           src="originals/mdn.svg"
           sizes="(max-width: 500px) 120px, 400px"
-          alt="firefox logo"/>
+          alt="mozilla developer"/>
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600x)" srcset="red-panda-portrait.jpg" />
+          <source media="(min-width: 601px)" srcset="red-panda.jpg" />
+          <img src="red-panda.jpg" alt="Red panda" />
+        </picture>
       </div>
 
     </main>
